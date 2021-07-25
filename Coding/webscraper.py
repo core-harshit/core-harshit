@@ -1,7 +1,12 @@
+import pyfiglet
 import argparse 
 import requests
 from bs4 import BeautifulSoup
 import csv
+
+result = pyfiglet.figlet_format("Core-Harshit")
+print(result)
+
 def file_read(o):
     with  open(o, "r") as fok:
         l = fok.readlines()
